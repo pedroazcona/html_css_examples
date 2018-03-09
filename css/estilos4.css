@@ -1,0 +1,45 @@
+/*ejemplos por tipos
+a {
+	font-size: 20px; 
+	text-decoration:none;
+	padding:10px 20px;
+	margin:10px 20px 10px 0px;
+	}	
+a:link {
+	color:aqua;
+}
+a:visited {
+	color:lime;
+}
+
+a:hover {
+	color:fuchsia;
+	background:black;
+}
+a:active {
+	background:orange;
+}
+ahora ejemplo de enlace que parece un botón*/
+a {
+	font-size: 20px; 
+	text-decoration:none;
+	margin:10px 20px;
+	display:inline-block;
+	background:#3ab7e1;
+	color:#fff;
+	padding:10px 20px;
+	box-shadow: 2px 0px 5px #1d64a6;
+	}	
+a:hover {
+	color:#000;
+	}	
+a:active {
+	font-size: 20px; 
+	text-decoration:none;
+	margin:10px 20px;
+	display:inline-block;
+	background:#3ab7e1;
+	color:#fff;
+	padding:10px 20px;
+	box-shadow: 1px 0px 3px #1d64a6;
+	}	

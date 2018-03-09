@@ -1,0 +1,14 @@
+.non_starndar{
+	color:rgba(0,0,0,0.5);
+	font-family:Arial, Helvetica, Sans-serif, "Myriad Pro"; /*Si tiene Arial, la usa, si no Helvetica, etc */
+	font-size: 20px; /* o 150%;*/
+	font-weight: bold; 
+	text-align: center;
+	line-height:150%;
+	text-decoration:underline;
+	text-transform: uppercase;
+	letter-spacing: 150%;
+	word-spacing:20px;
+	text-shadow:2px 2px 2px #000;
+	 
+}	

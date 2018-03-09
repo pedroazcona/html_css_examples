@@ -1,0 +1,58 @@
+body {
+		background:#fff;
+		color:#000;
+}
+/* selector universal */
+* {
+	margin:0;
+	padding:0;
+}
+/* selector de etiqueta */
+h1, h2 {
+	color:red;
+	padding:10;
+}
+h1 {
+	font-size:50px;
+}
+/* podemos aplicar a todos los links, o solo a los links dentro de un párrafo */
+p a {
+	color:green;
+}
+
+a {
+	color:orange;
+}
+.aqua /* para class, lo puedo aplicar a cuantos elementos quiera */
+{
+	color:aqua;
+}
+#brown /* para id, lo puedo aplicar a un único elemento. Mejor no usarlos, deprecated */
+{
+	color:brown;
+}
+
+p .fuchsia { /* Solo aplica  a los que estén dentro de un párrafo y sean class fuchsia*/
+	color:fuchsia;
+}
+
+a[href="http://www.elmundo.es"]{
+	color:red;
+	font-size:40px;
+	
+}
+
+
+p {
+	font-size:1em;
+}
+
+div {
+	background:#000;
+	color:rgba(53,131,44,0.7); /* a es la opacidad, de 0 a 1 */
+	width:50%;
+	/* height:75%; */
+	margin:5%;
+	padding:5%;
+	border:10px solid blue; /*dotted pone el borde punteado*/
+}
